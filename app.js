@@ -1,4 +1,4 @@
-const bells = new Audio("./sounds/bell.wav");
+const bells = new Audio("./sounds/work-done.wav");
 const startBtn = document.querySelector(".btn-start");
 const session = document.querySelector(".minutes");
 let myInterval;
