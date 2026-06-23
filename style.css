@@ -4,7 +4,7 @@ html {
     letter-spacing: 0.8px;
     min-height: 100vh;
     color: #363636;
-    background-image: linear-gradient(-20deg, #ffbcbc 0%, #e8748a 100%);
+    background-image: linear-gradient(0deg, #ffc4c4 0%, #e8748a 100%);
     background-size: cover;
 }
 
@@ -77,7 +77,7 @@ p {
 }
 
 .circle-mask {
-    border-color:#FAF9F6;
+    border-color:#000000;
 }
 
 .app-counter-box {
@@ -105,8 +105,6 @@ p {
     color: #90c0d1;
 }
 
-
-/* Options */
 .options {  
     display: flex;
     justify-content: center;
@@ -130,46 +128,44 @@ p {
     color: #FAF9F6;
 }
 
-/* Tasks */
 
 .tasks-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 25px;
     gap: 12px;
-    padding: 10px;
-    border-bottom: 2px solid #b5b5b5;
-    border-right: 2px solid #b5b5b5;
-    border-radius: 5px;
-}
+    padding: 26px;
 
+}
 
 #tasks-title {
     color: #363636;
     font-weight: 500;
-    margin-right: auto;
 }
 
 #tasks-count {
     color: #363636;
     font-weight: 500;
+    margin-right: auto;
 }
 
 #btn-add-task {
     margin-left: 20px;
 }
 
-#btn-add-task, #btn-clear-tasks{
+#btn-add-task, #btn-subtract-tasks{
     height: 40px;
     width: 40px;
     background-color: #363636;
     color: #FAF9F6;
     border: none;
     border-radius: 5px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 100%;
 }
 
-#btn-add-task:hover, #btn-clear-tasks:hover {
+#btn-add-task:hover, #btn-subtract-tasks:hover {
     background-color: #7c7c7c;
 }
